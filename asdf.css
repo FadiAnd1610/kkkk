@@ -1,0 +1,51 @@
+.cubs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 150px;
+    margin-top: -90px;
+}
+ h1 {
+    text-align: center;
+    margin-bottom: -20px;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    font-weight: 0px;
+    color: #C5FFF8;
+ }
+ body {
+    background-color: #7B66FF;  
+ }
+ 
+ .player1 {
+    font-size: 40px;
+    text-align: center;
+    color: #5FBDFF;
+ }
+ .player2 {
+    font-size: 40px;
+    text-align: center;
+    color: #5FBDFF;
+ }
+ footer {
+    text-align: center;
+    margin-top: -55px;
+    margin-bottom: 15px;
+    font-family: 'Times New Roman', Times, serif;
+   color: #96EFFF;
+ }
+ @media (max-width: 680px) and (min-width: 319px) {
+   
+   h1 {
+      font-size: 30px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+  
+   img {
+      width: 125px;
+      height: 125px;
+   }
+
+ }
+ 
